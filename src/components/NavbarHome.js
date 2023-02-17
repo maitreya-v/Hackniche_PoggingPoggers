@@ -9,7 +9,7 @@ function NavbarHome() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+        <Navbar.Brand href="#">Indian Military</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -19,7 +19,7 @@ function NavbarHome() {
           >
             <Nav.Link href="#action1">Home</Nav.Link>
             <Nav.Link href="#action2">Jobs</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+            <NavDropdown title="Blogs" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3"></NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -29,9 +29,9 @@ function NavbarHome() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              Link
-            </Nav.Link>
+            <Nav.Link href="#action1">Donation</Nav.Link>
+            <Nav.Link href="#action1">Pension</Nav.Link>
+            <Nav.Link href="#action1">Contact</Nav.Link>
           </Nav>
         
         </Navbar.Collapse>
